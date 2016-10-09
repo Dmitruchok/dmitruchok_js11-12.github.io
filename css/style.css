@@ -1,12 +1,16 @@
+body {
+  background-image: url('../img/bg_star.jpg');
+}
+
 section {
   margin: 30px auto;
   width: 910px;
-  border: 2px solid;
   border-radius: 10px;
   background: rgb(31, 31, 31);
 }
 
 .main-block {
+  margin:30px 0 30px 0;
   width: 725px;
   overflow: hidden;
   float: left;
@@ -54,11 +58,11 @@ section {
 }
 
 .carousel-arrow-left {
-    margin: 80px 25px 0 25px;
+    margin: 110px 25px 0 25px;
 }
 
 .carousel-arrow-right {
-    margin: 80px 25px 0 25px;
+    margin: 110px 25px 0 25px;
 }
 
 .clear {
