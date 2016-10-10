@@ -26,4 +26,14 @@ $(function() {
      elementsList.animate({ left : currentLeftValue + "px"}, 500);
    }
  });
+
+ var html = $('#about').html();
+ var date = {
+   title: 'hi Hitler!!'
+ };
+
+ var content = tmpl(html, date);
+
+ $('body').append(content);
+
 });
