@@ -68,3 +68,21 @@ section {
 .clear {
   clear: both;
 }
+
+.container {
+  display: flex;
+}
+
+.brand-0,
+.brand-1,
+.brand-2 {
+  color: #fff;
+  width: 30%;
+  margin: 0 3%;
+}
+
+.brand-0 h1,
+.brand-1 h1,
+.brand-2 h1 {
+  text-align: center;
+}

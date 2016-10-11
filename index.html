@@ -28,12 +28,17 @@
     </section>
 
     <script type="text/template" id="about-brand">
-      <% for(var i = 0; i < data.length; i++) {%>
-        <div class="brand">
-          <h1><%= data[i].brandName %></h1>
-          <h1><%= data[i].aboutBrand %></h1>
-        </div>
-      <% }; %>
+      <div class="container">
+
+        <% for(var i = 0; i < data.length; i++) {%>
+          <div class="brand-<%= +i%>">
+            <h1><%= data[i].brandName %></h1>
+            <p><%= data[i].aboutBrand %></p>
+            <p><%= data[i].createCOmpany %></p>
+          </div>
+        <% }; %>
+
+      </div>
     </script>
 
 </body>
