@@ -81,8 +81,32 @@ section {
   margin: 0 3%;
 }
 
-.brand-0 h1,
-.brand-1 h1,
-.brand-2 h1 {
-  text-align: center;
+.brand-0 h1:after {
+  content: '';
+  display: inline-block;
+  background: url('../img/nike.jpg') no-repeat;
+  background-size: 70px;
+  margin-left: 40%;
+  width: 100px;
+  height: 40px;
+}
+
+.brand-1 h1:after {
+  content: '';
+  display: inline-block;
+  background: url('../img/adidas.jpg') no-repeat;
+  background-size: 100px;
+  margin-left: 40%;
+  width: 100px;
+  height: 40px;
+}
+
+.brand-2 h1:after {
+  content: '';
+  display: inline-block;
+  background: url('../img/puma.jpg') no-repeat;
+  background-size: 100px;
+  margin-left: 40%;
+  width: 100px;
+  height: 40px;
 }
