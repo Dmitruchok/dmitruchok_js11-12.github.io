@@ -81,32 +81,32 @@ section {
   margin: 0 3%;
 }
 
-.brand-0 h1:after {
+.brand-0:before {
   content: '';
-  display: inline-block;
+  display: block;
   background: url('../img/nike.jpg') no-repeat;
   background-size: 70px;
-  margin-left: 54%;
+  margin: 0 auto;
   width: 100px;
   height: 40px;
 }
 
-.brand-1 h1:after {
+.brand-1:before{
   content: '';
-  display: inline-block;
+  display: block;
   background: url('../img/adidas.jpg') no-repeat;
   background-size: 100px;
-  margin-left: 40%;
+  margin: 0 auto;
   width: 100px;
   height: 40px;
 }
 
-.brand-2 h1:after {
+.brand-2:before{
   content: '';
-  display: inline-block;
+  display: block;
   background: url('../img/puma.jpg') no-repeat;
   background-size: 100px;
-  margin-left: 40%;
+  margin: 0 auto;
   width: 100px;
   height: 40px;
 }
